@@ -7,7 +7,7 @@ import Sectionhead from "@components/sectionhead.astro";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
-  return !data.draft && data.publishDate < new Date();
+  return !data.draft /*&& data.publishDate < new Date()*/;
 });
 
 // Sort content entries by publication date
@@ -20,9 +20,7 @@ publishedBlogEntries.sort(function (a, b) {
   <Container>
     <Sectionhead>
       <Fragment slot="title">Our Blog</Fragment>
-      <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
-      </Fragment>
+      <Fragment slot="desc"> PEQUENA DESCRIÇÃO (?) </Fragment>
     </Sectionhead>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">

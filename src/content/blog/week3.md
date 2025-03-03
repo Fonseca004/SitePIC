@@ -1,6 +1,6 @@
 ---
-draft: true
-title: "Week 3 - "
+draft: false
+title: "Week 3 - Website and Mechanism"
 snippet: ""
 image:
   {
@@ -10,5 +10,9 @@ image:
 publishDate: "2025-03-07 15:39"
 category: "Weekly Update"
 author: "José Fonseca"
-tags: [astro, arduino, blender]
+tags: [astro, tailwindcss]
 ---
+
+This week, we focused on finalizing the website and blog, ensuring they are ready for launch on March 4th. While the current version is simple, we plan to update and enhance it over time, making it more dynamic and visually appealing as the project progresses.
+
+We delved deeper into our technological solution, considering the best approach for the moving mechanism. Our focus was on keeping it simple to ensure durability and stability.

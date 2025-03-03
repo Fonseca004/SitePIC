@@ -1,11 +1,8 @@
 ---
 draft: false
 name: "Miguel Martins"
-title: "Software and "
-avatar:
-  {
-    src: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280",
-    alt: "Miguel Martins",
-  }
+title: "Software and Partners"
+link: "https://www.linkedin.com/in/miguel-martins-6953462a6/"
+avatar: { src: "/public/1703008748319.jpg", alt: "Miguel Martins" }
 publishDate: "2022-11-09 15:39"
 ---

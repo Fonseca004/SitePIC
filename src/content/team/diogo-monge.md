@@ -1,11 +1,8 @@
 ---
 draft: false
 name: "Diogo Monge"
-title: "Design and "
-avatar:
-  {
-    src: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280",
-    alt: "Diogo Monge",
-  }
+title: "Logistics and Product Design"
+link: "https://www.linkedin.com/in/diogo-monge-96a04a262/"
+avatar: { src: "/public/monge1.jpg", alt: "Diogo Monge" }
 publishDate: "2022-11-08 15:39"
 ---

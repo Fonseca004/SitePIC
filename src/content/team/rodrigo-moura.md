@@ -1,11 +1,8 @@
 ---
 draft: false
 name: "Rodrigo Moura"
-title: "Hardware and "
-avatar:
-  {
-    src: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280",
-    alt: "Rodrigo Moura",
-  }
+title: "Logistics and Product Design"
+link: "https://www.linkedin.com/in/rodrigo-moura-7580a2269/"
+avatar: { src: "/public/1726413499615.jpg", alt: "Rodrigo Moura" }
 publishDate: "2022-11-09 15:39"
 ---

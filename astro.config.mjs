@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
+import netlify from '@astrojs/netlify';
 
 export default defineConfig({
   site: "https://web.tecnico.ulisboa.pt/ist1106305/",
@@ -10,4 +11,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  output: 'server',
+  adapter: netlify(),
 });

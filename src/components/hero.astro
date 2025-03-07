@@ -11,11 +11,12 @@ import { Icon } from "astro-icon/components";
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
       src={imagem1}
-      alt="Astronaut in the air"
-      widths={[200, 400, 600]}
-      sizes="(max-width: 800px) 100vw, 620px"
+      alt="Smart Rack"
+      widths={[100, 200, 300]}
+      sizes="(max-width: 800px) 50vw, 310px"
       loading="eager"
       format="avif"
+      style={{ width: "300px", height: "auto" }}
     />
   </div>
   <div>
@@ -29,5 +30,17 @@ import { Icon } from "astro-icon/components";
       while giving you peace of mind, knowing that your clothes will be
       protected from the rain.
     </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3">
+      <Link
+        href="#"
+        href=""
+        target="_blank"
+        class="flex gap-1 items-center justify-center"
+        rel="noopener">
+        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
+
+        Google Forms
+      </Link>
+    </div>
   </div>
 </main>

@@ -2,7 +2,7 @@
 draft: false
 title: "Week 1 - Market evaluation"
 snippet: " "
-image: { src: "/public/market.jpg", alt: "frontend master" }
+image: { src: "/assets/hero-alt.jpg", alt: "frontend master" }
 publishDate: "2025-02-20 15:39"
 category: "Weekly Update"
 author: "José Fonseca"

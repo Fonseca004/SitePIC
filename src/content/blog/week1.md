@@ -9,6 +9,8 @@ author: "José Fonseca"
 tags: [market analysis, project structure]
 ---
 
-We began by assessing the market to determine whether our product was truly needed or if we were attempting to solve a non-existent problem. After conducting a survey, we confirmed that the problem was worth addressing. Further research revealed that there were no competitors, highlighting the innovative potential of our project if successfully implemented.
+In the first week of this project, we began by assessing the market to determine whether our product was truly needed or if we were attempting to solve a non-existent problem. We’ve failed to find active competitors that are currently selling their product on the market, even though there were attempts before, highlighting the potential of our project if implemented successfully. After further analysis, we decided to conduct a survey, and we confirmed that the problem was truly worth addressing – an automatic drying rack must be made to help the people.
 
-We also divided the team based on areas of expertise. While everyone will be involved in all aspects of the project, certain members will focus more on specific areas.
+We also started developing what will eventually become our final pitch deck and we showed our advancements to our scientific advisor and co-advisor, receiving valuable feedback. Lastly, we distributed the roles and responsibilities among each team member in order to better organize our labor.
+
+We aim to develop this project smoothly and you’ll keep hearing from us in this blog.

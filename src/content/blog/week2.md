@@ -2,7 +2,7 @@
 draft: false
 title: "Week 2 - Ideas and Website"
 snippet: " "
-image: { src: "/src/assets/pic1.jpg", alt: "frontend master" }
+image: { src: "../../assets/pic1.jpg", alt: "frontend master" }
 publishDate: "2025-02-26 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"

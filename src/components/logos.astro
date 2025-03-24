@@ -6,10 +6,25 @@ import { Icon } from "astro-icon/components";
 <div class="mt-24">
   <h2 class="text-center text-slate-500">Developed with</h2>
   <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
-    <Icon class="size-8 md:size-12" name="simple-icons:astro" />
-    <Icon class="size-8 md:size-12" name="simple-icons:markdown" />
-    <Icon class="size-8 md:size-12" name="simple-icons:tailwindcss" />
-    <Icon class="size-8 md:size-16" name="simple-icons:blender" />
-    <Icon class="size-8 md:size-16" name="simple-icons:arduino" />
+    <div class="flex flex-col items-center">
+      <Icon class="size-8 md:size-12" name="simple-icons:astro" />
+      <span class="text-xs text-slate-600 mt-2">Astro</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <Icon class="size-8 md:size-12" name="simple-icons:markdown" />
+      <span class="text-xs text-slate-600 mt-2">Markdown</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <Icon class="size-8 md:size-12" name="simple-icons:tailwindcss" />
+      <span class="text-xs text-slate-600 mt-2">Tailwind CSS</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <Icon class="size-8 md:size-16" name="simple-icons:blender" />
+      <span class="text-xs text-slate-600 mt-2">Blender</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <Icon class="size-8 md:size-16" name="simple-icons:arduino" />
+      <span class="text-xs text-slate-600 mt-2">Arduino</span>
+    </div>
   </div>
 </div>

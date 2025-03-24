@@ -4,7 +4,7 @@ title: "Week 4 - 3D model and prototype"
 snippet: ""
 image:
   {
-    src: "https://images.unsplash.com/photo-1638959492386-f9a68d55c374?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "../../assets/week4.jpeg",
     alt: "frontend master",
   }
 publishDate: "2025-03-18 15:39"

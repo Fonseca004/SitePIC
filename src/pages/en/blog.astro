@@ -1,16 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import { Picture } from "astro:assets";
-import LayoutPt from "@layouts/LayoutPt.astro";
+import LayoutEn from "@layouts/LayoutEn.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
-  return !data.draft && data.lang === "pt";
+  return !data.draft && data.lang === "en";
 });
-
-console.log(publishedBlogEntries);
 
 // Sort content entries by publication date
 publishedBlogEntries.sort(function (a, b) {
@@ -18,12 +16,12 @@ publishedBlogEntries.sort(function (a, b) {
 });
 ---
 
-<LayoutPt title="Blog">
+<LayoutEn title="Blog">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Bem vindo ao nosso Blog</Fragment>
+      <Fragment slot="title">Our Blog</Fragment>
       <Fragment slot="desc">
-        Aqui podes ficar a conhecer todo o nosso progresso!
+        Get an inside look at our project’s progress from the start!
       </Fragment>
     </Sectionhead>
     <main class="mt-16">
@@ -31,7 +29,7 @@ publishedBlogEntries.sort(function (a, b) {
         {
           publishedBlogEntries.map((blogPostEntry, index) => (
             <li>
-              <a href={`/blog/${blogPostEntry.slug}`}>
+              <a href={`/en/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                   <Picture
                     src={blogPostEntry.data.image.src}
@@ -72,4 +70,4 @@ publishedBlogEntries.sort(function (a, b) {
       </ul>
     </main>
   </Container>
-</LayoutPt>
+</LayoutEn>

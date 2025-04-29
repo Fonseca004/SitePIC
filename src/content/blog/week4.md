@@ -11,6 +11,7 @@ publishDate: "2025-03-18 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"
 tags: [astro, tailwindcss]
+lang: "en"
 ---
 
 This week, we started by creating a simple 3D model for our project ensuring that we can easily visualize how to come upon our problem. After some failed attempts printing our product, we have achieved what have come to be our first prototype.

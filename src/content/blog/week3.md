@@ -11,6 +11,7 @@ publishDate: "2025-03-07 15:39"
 category: "Weekly Update"
 author: "José Fonseca"
 tags: [astro, tailwindcss]
+lang: "en"
 ---
 
 In this third week, we were primarily focused on finishing the website and blog, ensuring that they are fully functional and ready for launch on March 4th. Although we had some visual issues, the website launch was assured and successful. At the moment, we have a simple version of our website, however, we plan to update and enhance it over the duration of this project, making it more dynamic, with more features and more visually appealing.

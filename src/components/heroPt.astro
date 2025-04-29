@@ -1,0 +1,49 @@
+---
+import { Picture } from "astro:assets";
+import heroImage from "assets/hero.png";
+import imagem1 from "assets/pic3.jpg";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<main
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
+  <div class="py-6 md:order-1 hidden md:block">
+    <Picture
+      src={imagem1}
+      alt="Smart Rack"
+      widths={[100, 200, 300]}
+      sizes="(max-width: 800px) 50vw, 310px"
+      loading="eager"
+      format="avif"
+      style={{ width: "300px", height: "auto" }}
+    />
+  </div>
+  <div>
+    <h1
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+      SmartRack
+    </h1>
+    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+      SmartRack é um estendal inovador concebido para maximizar a eficiência ao
+      pendurar a roupa no exterior. O nosso objetivo é reduzir o consumo de
+      energia, proporcionando-lhe tranquilidade ao saber que a sua roupa estará
+      protegida da chuva.
+      <p class="text-lg mt-4 text-slate-600 font-semibold max-w-xl">
+        Ajude-nos a melhorar o nosso projeto! Partilhe a sua opinião através
+        deste breve formulário e faça parte da inovação.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfTUQXNzsvIKweVtNd8QL_6-aumfHLFUqW4osTjwRngtvyzrg/viewform?usp=sharing"
+          target="_blank"
+          class="flex gap-1 items-center justify-center"
+          rel="noopener">
+          <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
+
+          Feedback!
+        </Link>
+      </div>
+    </p>
+  </div>
+</main>

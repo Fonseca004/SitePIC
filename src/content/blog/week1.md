@@ -7,6 +7,7 @@ publishDate: "2025-02-20 15:39"
 category: "Weekly Update"
 author: "José Fonseca"
 tags: [market analysis, project structure]
+lang: "en"
 ---
 
 In the first week of this project, we began by assessing the market to determine whether our product was truly needed or if we were attempting to solve a non-existent problem. We’ve failed to find active competitors that are currently selling their product on the market, even though there were attempts before, highlighting the potential of our project if implemented successfully. After further analysis, we decided to conduct a survey, and we confirmed that the problem was truly worth addressing – an automatic drying rack must be made to help the people.

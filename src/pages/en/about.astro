@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { Picture } from "astro:assets";
-import LayoutPt from "@layouts/LayoutPt.astro";
+import LayoutEn from "@layouts/LayoutEn.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
@@ -11,22 +11,21 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 });
 ---
 
-<LayoutPt title="About">
+<LayoutEn title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Equipa SmartRack</Fragment>
-      <Fragment slot="desc">Somos uma pequena equipa dedicada.</Fragment>
+      <Fragment slot="title">About Us</Fragment>
+      <Fragment slot="desc">We are a small passionate team.</Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Secar a sua roupa de forma eficaz.
+        Drying your clothes effectively.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        Somos um grupo de seis estudantes do Instituto Superior Técnico (IST)
-        situados em Lisboa. Provenientes de diversas áreas, trazemos uma
-        variedade de personalidades, experiências e competências para o nosso
-        projeto.
+        We are a team of six students from Instituto Superior Técnico (IST) in
+        Lisbon, Portugal! Coming from diverse backgrounds, we bring a variety of
+        personalities, experiences, and skills to our project.
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
@@ -59,4 +58,4 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
       }
     </div>
   </Container>
-</LayoutPt>
+</LayoutEn>

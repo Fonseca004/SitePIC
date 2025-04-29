@@ -1,0 +1,68 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+const features = [
+  {
+    title: "Eficácia",
+    description:
+      "You can expect your clothes to dry faster in bad weather, without compromising effectiveness in ideal conditions.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Descanso",
+    description:
+      "Simply hang your clothes and relax—even if it starts to rain.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Poupança",
+    description:
+      "The initial investment is low, while your energy cost savings will be high.",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Design",
+    description:
+      "With its minimal design, our product seamlessly blends into your building's aesthetic.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Comunidade",
+    description:
+      "SmartRack helps build a more sustainable and considerate community—one that values both convenience and environmental responsibility.",
+    icon: "bx:bxs-user",
+  },
+  {
+    title: "Ambiente",
+    description:
+      "By consuming less energy, you are not only saving money but also helping the Earth.",
+    icon: "bx:bxs-user",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Porquê SmartRack
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Seis razões que fazem do nosso produto um ótimo investimento.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

@@ -15,6 +15,7 @@ const blogCollection = defineCollection({
     author: z.string().default('SmartRack'),
     category: z.string(),
     tags: z.array(z.string()),
+    lang: z.string(),
   }),
 });
 

@@ -1,12 +1,12 @@
 ---
 import Container from "@components/container.astro";
 import { getFormattedDate } from "@utils/all";
-import Layout from "./Layout.astro";
+import LayoutEn from "./LayoutEn.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={frontmatter.title}>
+<LayoutEn title={frontmatter.title}>
   <Container>
     <div class="mx-auto max-w-[735px] mt-14">
       <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
@@ -46,4 +46,4 @@ const { frontmatter } = Astro.props;
       >
     </div>
   </Container>
-</Layout>
+</LayoutEn>

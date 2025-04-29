@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import LayoutPt from "@layouts/LayoutPt.astro";
+import LayoutEn from "@layouts/LayoutEn.astro";
 import Container from "@components/container.astro";
 
 export const prerender = true;
@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   const blogEntries = await getCollection("blog");
 
   return blogEntries
-    .filter((entry) => entry.data.lang === "pt")
+    .filter((entry) => entry.data.lang === "en")
     .map((entry) => ({
       params: { slug: entry.slug },
       props: { entry },
@@ -21,7 +21,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<LayoutPt title={entry.data.title}>
+<LayoutEn title={entry.data.title}>
   <Container>
     <div class="mx-auto max-w-3xl mt-14">
       <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
@@ -55,10 +55,10 @@ const { Content } = await entry.render();
     </div>
     <div class="text-center mt-8">
       <a
-        href="/blog"
+        href="/en/blog"
         class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition">
-        ← Voltar ao Blog
+        ← Back to Blog
       </a>
     </div>
   </Container>
-</LayoutPt>
+</LayoutEn>

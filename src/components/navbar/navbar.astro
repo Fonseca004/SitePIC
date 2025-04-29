@@ -1,7 +1,5 @@
 ---
 import Container from "@components/container.astro";
-import Link from "@components/ui/link.astro";
-import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
@@ -21,8 +19,8 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Smart</span><span
+        <a href="/" class="text-lg">
+          <span class="font-bold text-slate-800">Smart</span><span
             class="text-slate-500">Rack</span
           >
         </a>
@@ -30,26 +28,46 @@ const menuitems = [
           <MenuIcon class="w-4 h-4 text-gray-800" />
         </div>
       </div>
+
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {/* Flags with / separator */}
+          <li class="flex items-center">
+            <a
+              href="/"
+              class="flex items-center text-gray-600 hover:text-gray-900">
+              <img
+                src="https://flagicons.lipis.dev/flags/4x3/gb.svg"
+                alt="English"
+                class="w-6 h-6 mr-2"
+              />
+            </a>
+            <span class="mx-2">/</span>
+            <a
+              href="/pt"
+              class="flex items-center text-gray-600 hover:text-gray-900">
+              <img
+                src="https://flagicons.lipis.dev/flags/4x3/pt.svg"
+                alt="Portuguese"
+                class="w-6 h-6 ml-2"
+              />
+            </a>
+          </li>
+
           {
             menuitems.map((item, index) => (
-              <>
-                {!item.children && (
-                  <li>
-                    <a
-                      href={item.path}
-                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
-                      <span> {item.title}</span>
-                      {item.badge && (
-                        <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
-                          New
-                        </span>
-                      )}
-                    </a>
-                  </li>
-                )}
-              </>
+              <li key={index}>
+                <a
+                  href={item.path}
+                  class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
+                  <span>{item.title}</span>
+                  {item.badge && (
+                    <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
+                      New
+                    </span>
+                  )}
+                </a>
+              </li>
             ))
           }
         </ul>

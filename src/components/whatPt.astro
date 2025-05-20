@@ -2,33 +2,34 @@
 
 ---
 
-<div class="mt-16 md:mt-0">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Funcionamento
-  </h2>
-  <p class="text-lg mt-4 text-slate-600">
-    O SmartRack possui um sistema automático de dobragem que é ativado quando um
-    sensor de chuva deteta precipitação acima de um determinado limiar (a ser
-    definido através de experimentação). As laterais são protegidas por lâminas
-    horizontais, que podem abrir ou fechar para proteger as roupas ou permitir a
-    circulação de ar, dependendo das condições meteorológicas.
-  </p>
-  <p class="text-lg mt-4 text-slate-600">
-    Para evitar que o sistema se ligue e desligue repetidamente devido a
-    interferências, implementámos um controlo de histerese, garantindo maior
-    estabilidade e fiabilidade.
-  </p>
-</div>
-
+<h2 class="text-4xl mt-10 lg:text-5xl font-bold lg:tracking-tight">
+  Funcionamento
+</h2>
 <div
-  class="p-8 md:px-20 md:py-20 mt-2 mx-auto max-w-xl flex flex-col rounded-l items-center text-center">
-  <video
-    src="/videos/picgif1.mp4"
-    autoplay
-    loop
-    muted
-    playsinline
-    class="w-full max-w-2xl rounded-l shadow-lg center">
-    Your browser does not support the video tag.
-  </video>
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
+  <div class="py-6 md:order-0 hidden md:block justify-self-start">
+    <video
+      src="/videos/picgif1.mp4"
+      autoplay
+      loop
+      muted
+      playsinline
+      class="w-full max-w-xl rounded-l shadow-lg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="text-left">
+    <p class="text-lg mt-4 text-slate-600">
+      O SmartRack possui um sistema automático de dobragem que é ativado quando
+      um sensor de chuva deteta precipitação acima de um determinado limiar (a
+      ser definido através de experimentação). As laterais são protegidas por
+      lâminas horizontais, que podem abrir ou fechar para proteger as roupas ou
+      permitir a circulação de ar, dependendo das condições meteorológicas.
+    </p>
+    <p class="text-lg mt-4 text-slate-600">
+      Para evitar que o sistema se ligue e desligue repetidamente devido a
+      interferências, implementámos um controlo de histerese, garantindo maior
+      estabilidade e fiabilidade.
+    </p>
+  </div>
 </div>

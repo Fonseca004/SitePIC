@@ -2,36 +2,34 @@
 
 ---
 
-<div class="mt-16 md:mt-0">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">How it works</h2>
-  <p class="text-lg mt-4 text-slate-600">
-    The SmartRack features an automated folding system that activates when a
-    rain sensor detects precipitation above a certain threshold (to be
-    determined through experimentation). The sides are shielded by horizontal
-    grills, which can open or close to either protect the clothes or allow air
-    circulation, depending on the weather conditions.
-  </p>
-  <p class="text-lg mt-4 text-slate-600">
-    To prevent the system from repeatedly turning on and off due to
-    interferences, we implemented hysteresis control, ensuring greater stability
-    and reliability.
-  </p>
-  {
-    /* <p class="text-lg mt-4 text-slate-600">
-    Explicar aqui o produto, até pôr a animacao do blender do monge!
-  </p> */
-  }
-</div>
-
+<h2 class="text-4xl mt-10 lg:text-5xl font-bold lg:tracking-tight">
+  How it works
+</h2>
 <div
-  class="p-8 md:px-20 md:py-20 mt-2 mx-auto max-w-xl flex flex-col rounded-l items-center text-center">
-  <video
-    src="/videos/picgif1.mp4"
-    autoplay
-    loop
-    muted
-    playsinline
-    class="w-full max-w-2xl rounded-l shadow-lg center">
-    Your browser does not support the video tag.
-  </video>
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
+  <div class="py-6 md:order-0 hidden md:block justify-self-start">
+    <video
+      src="/videos/picgif1.mp4"
+      autoplay
+      loop
+      muted
+      playsinline
+      class="w-full max-w-xl rounded-l shadow-lg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="text-left">
+    <p class="text-lg mt-4 text-slate-600">
+      The SmartRack features an automated folding system that activates when a
+      rain sensor detects precipitation above a certain threshold (to be
+      determined through experimentation). The sides are shielded by horizontal
+      grills, which can open or close to either protect the clothes or allow air
+      circulation, depending on the weather conditions.
+    </p>
+    <p class="text-lg mt-4 text-slate-600">
+      To prevent the system from repeatedly turning on and off due to
+      interferences, we implemented hysteresis control, ensuring greater
+      stability and reliability.
+    </p>
+  </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana 2 - Ideas and Website"
+title: "Semana 2 - Ideias e Website"
 snippet: " "
 image: { src: "../../assets/pic1.jpg", alt: "frontend master" }
 publishDate: "2025-02-26 15:39"
@@ -10,8 +10,8 @@ tags: [astro, tailwindcss, blender]
 lang: "pt"
 ---
 
-This week, we met with civil builder Martins Dias, who also accepted to be our mentor during the duration of this project and gave us some privileged insight on the market and the pros and cons of our project. He also helped us understand how we could make our product useful and more appealing to contractors – our new stakeholders. We’ve decided to change our perspective and, instead of trying to create a universal solution to our problem, we compromised ourselves to create our project for newly built houses.
+Nesta semana, tivemos uma reunião com o construtor civil Martins Dias, que aceitou ser nosso mentor durante todo o desenvolvimento deste projeto e nos deu alguma informação privilegiada acerca do mercado de construção e algumas diretrizes em como desenvolver o nosso projeto. Também nos ajudou a entender que, de forma a solucionar o problema para um maior número de pessoas e torná-lo mais apelativo, devíamos mudar o nosso paradigma, focando-nos, não na criação de um estendal universal, mas na criação de estendais inteligentes em casas que estão em construção ou serão construídas no futuro.
 
-We started by creating some new sketches and 3D animations to support our new concept and, even though we are not fully sure how the project will turn out, we have reached new heights in the conceptualization of our project.
+Começámos também a criar alguns esboços e animações 3D para nos ajudar ainda mais na conceptualização desta nova solução, mesmo não tendo a certeza de que será a solução final,  estamos a expandir cada vez mais os nossos horizontes. 
 
-At the same time, we started working on this website and blog and finalized the week by updating our pitch deck presentation, specifically our validation metrics, which must be met to ensure the project’s success.
+Também foi no decorrer desta semana que começámos a desenvolver o website e blog do nosso projeto e também atualizámos o nosso pitch deck, mais especificamente as nossas métricas para validação do projeto, que terão de ser cumpridas para afirmar o sucesso deste.

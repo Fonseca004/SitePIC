@@ -1,16 +1,16 @@
 ---
 draft: false
-title: "Semana 6 - "
+title: "Semana 6 - Pitch Deck"
 snippet: ""
 image:
   {
-    src: "../../assets/hero.png",
+    src: "../../assets/pitchdeck.png",
     alt: "frontend master",
   }
 publishDate: "2025-04-01 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"
-tags: [astro, tailwindcss]
+tags: [pitch deck]
 lang: "pt"
 ---
 

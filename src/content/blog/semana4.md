@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana 4 - 3D model and prototype"
+title: "Semana 4 - Modelo 3D e Protótipo"
 snippet: ""
 image:
   {
@@ -10,14 +10,13 @@ image:
 publishDate: "2025-03-18 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"
-tags: [astro, tailwindcss]
+tags: [blender, tailwindcss]
 lang: "pt"
 ---
 
-This week, we started by creating a simple 3D model for our project ensuring that we can easily visualize how to come upon our problem. After some failed attempts printing our product, we have achieved what have come to be our first prototype.
+Nesta semana, começamos por criar um simples modelo 3D do nosso projeto de forma a sermos capazes de visualizar mais facilmente o nosso problema e, consequentemente, a nossa solução. Foram necessárias algumas tentativas para a chegar à correta impressão do nosso projeto, no entanto, podemos dizer que o nosso primeiro protótipo foi um sucesso.
 
-In this first prototype, the lateral rotational parts are immobile in an angle we considered favorable for the analysis of the project. The top layer of our prototype is an attachment so we can further analyse how to fully implement this solution.
+Adicionalmente, também conversamos e discutimos com um designer de UX profissional que nos deu feedback em como tornar o site mais apelativo. Deu-nos sugestões para deixar o site mais claro, reduzindo o número de informação irrelevante, dando assim mais destaque para o que é realmente importante. Estes conselhos foram de extrema relevância e serão tidos em consideração nas próximas semanas de forma a implementar as sugestões o mais rápido possível.
 
-We also talked to a professional UX designer that gave us feedback on how to improve and make our website and blog more appealing. This feedback was valuable and will be used in the next few weeks while we keep updating the website.
+Por último, planeamos reuniões com profissionais da área da engenharia civil e de sistemas de decisão e controlo mas, infelizmente, devido a horários incompatíveis, as reuniões foram adiadas para um futuro próximo.
 
-Furthermore, we also set plans to conduct interviews with some professionals in the field of civil engineering and control systems but, unfortunately, due to non-compatible schedules, these interviews were postponed and will happen in the near future.

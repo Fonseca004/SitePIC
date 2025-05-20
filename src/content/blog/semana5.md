@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana 5 - Prototype structure and materials"
+title: "Semana 5 - Protótipo e Materais"
 snippet: ""
 image:
   {
@@ -10,20 +10,22 @@ image:
 publishDate: "2025-03-25 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"
-tags: [astro, tailwindcss]
+tags: []
 lang: "pt"
 ---
 
-This week, we needed to elaborate a list of materials and requirements that will be used in the future. In order to do that, we conducted an interview with a project manager at Mecwide SA.
+Esta semana, foi necessário criar uma lista de materiais necessários que vão ser precisos para conseguir realizar a produção do nosso projeto. Para tal, realizámos uma reunião com um gestor de produtos da Mecwide SA.
 
-We presented the problem we committed ourselves to solve, and our proposal for a solution was considered "definitely a viable option". During the conversation, we started a deep dive into our proposal, and he seemed uncertain about the need for multiple stages/angles for the lateral slats, forcing us to rethink, as a collective, the need for said stages. As a group, we were also uncertain as to what material we should use in the prototype. The engineer advised us to use PVC, since it is resistant and much cheaper when compared to other options, such as aluminium for example. When talking about the different sensors we were thinking of adding in the product, he alerted us to a concern we, as product developers, had not thought about. The addition of more sensors implies that more maintenance will be required, so we should only implement sensors that are crucial to the product. This forced us to rethink the use for each of the sensors and how crucial they are. Although it is not the main aim of this project, he suggested that as product inventors/sellers we provide said maintenance as it would create a dependency to us, making our product and our services linked and creating more revenue in the long run.
+Após apresentarmos o problema e a solução ao entrevistado, este considerou que o nosso produto era “garantidamente uma opção viável”. Durante a reunião, fomos defrontados com uma questão que nos obrigou a repensar novamente toda a nossa solução: seria de facto necessário várias fases para as coberturas laterais? Chegámos à conclusão que, apesar de inicialmente ter parecido uma boa ideia, a adição de mais estágios apenas estaria a criar problemas desnecessários sendo que, apenas com dois estágios, podiamos garantir o bom funcionamento do nosso produto: uma fase completamente aberta, quando não existe chuva, e uma quase completamente fechada, que garantisse a proteção da roupa mesmo quando existisse chuva.
 
-When talking about a possible solution for values of temperature and humidity beyond a certain threshold (to be determined experimentally), he suggested we implement a auxiliary app for monitoring the entire process, and when said thresholds were surpassed the user would receive a notification that would inform them that the current extreme climatic conditions make our product somewhat obsolete and advise the user accordingly. We have decided as a group to move forward with this idea as, we think, would add value to our product.
+Outro tópico que gerou bastante discussão dentro da equipa foi relativo a que material usar para o desenvolvimento da nossa solução. Com isso em mente, questionámos novamente o entrevistado, mostrando a nossa abordagem. Este aconselhou-nos a usar PVC visto ser, de entre todas as hipóteses, o material mais resistente e mais barato. Adicionalmente, quando questionado se acharia relevante adicionar mais sensores à nossa solução, fomos avisados de que, caso houvesse excesso de sensores, isto poderia levar a uma manutenção demasiado elevada que não é desejada. Isto levou-nos novamente a pensar em equipa da importância de cada sensor mas, todos os sensores têm um papel crucial no bom funcionamento do produto. Desta forma, apesar de não ser o objetivo deste projeto, caso fosse vendido como uma solução para o público, os vendedores poderão oferecer serviços de manutenção, aumentando assim a receita da empresa a longo prazo.
 
-Finally, he advised for our next steps in the development of the prototype:
-- Finish the model in 3D animation;
-- Define the materials;
-- Ask for a budget on the PVC structure (possibly a locksmith);
-- Go talk to contractors with a full project of the prototype to see if they would buy our product and if it solves the problem.
+Quando discutimos acerca da possível solução para valores de temperatura, humidade e precipitação, o entrevistado sugeriu criar uma aplicação auxiliar para monitorizar todo o processo, informando o utilizador/cliente de todo o processo e estado do seu produto. Esta ideia foi muito bem recebida por toda a equipa e tencionamos implementá-la.
 
-This conversation was crucial for our product development as it gave a deep inside on everything we did right and everything we can still improve. The engineer has offered to continue to give his valuable advice and insights for the remainder of the development of our prototype and product.
+Por último, fomos aconselhados nos próximos passos a tomar:
+- Acabar de modelar a solução em 3D;
+- Definir claramente a lista de material necessário;
+- Pedir um orçamento da estrutura PVC;
+- Entrevistar construtores civis com a nossa solução para garantir o interesse do nosso produto.
+
+Toda esta conversa foi crucial para o nosso projeto e mostrou-nos que o nosso produto ainda tem muitas falhas. Felizmente, ainda temos muito tempo para resolver e solucionar todos estes problemas. Para além disto, o engenheiro entrevistado mostrou-se disponível a ajudar caso fosse necessário.

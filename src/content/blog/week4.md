@@ -10,7 +10,7 @@ image:
 publishDate: "2025-03-18 15:39"
 category: "Weekly Update"
 author: "Leonardo Laia"
-tags: [astro, tailwindcss]
+tags: [blender, tailwindcss]
 lang: "en"
 ---
 

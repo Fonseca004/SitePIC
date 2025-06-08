@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Week 15 - "
+title: "Week 15 - ESP32 x WebApp, New Mechanism"
 snippet: ""
 image:
   {

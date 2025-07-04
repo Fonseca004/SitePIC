@@ -8,7 +8,7 @@ image:
     alt: "frontend master",
   }
 publishDate: "2025-05-07 15:39"
-category: "Weekly Update"
+category: "Atualização Semanal"
 author: "Diogo Palma"
 tags: []
 lang: "pt"

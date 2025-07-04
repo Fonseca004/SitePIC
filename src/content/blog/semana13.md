@@ -8,7 +8,7 @@ image:
     alt: "frontend master",
   }
 publishDate: "2025-05-12 15:39"
-category: "Weekly Update"
+category: "Atualização Semanal"
 author: "José Fonseca"
 tags: [firebase, blender, nodeJS]
 lang: "pt"

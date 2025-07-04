@@ -8,8 +8,8 @@ image:
     alt: "frontend master",
   }
 publishDate: "2025-03-25 15:39"
-category: "Weekly Update"
-author: "Leonardo Laia"
+category: "Atualização Semanal"
+author: "Rodrigo Moura"
 tags: []
 lang: "pt"
 ---

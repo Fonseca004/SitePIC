@@ -4,7 +4,7 @@ title: "Semana 2 - Ideias e Website"
 snippet: " "
 image: { src: "../../assets/pic1.jpg", alt: "frontend master" }
 publishDate: "2025-02-26 15:39"
-category: "Weekly Update"
+category: "Atualização Semanal"
 author: "Leonardo Laia"
 tags: [astro, tailwindcss, blender]
 lang: "pt"

@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2025-03-25 15:39"
 category: "Weekly Update"
-author: "Leonardo Laia"
+author: "Rodrigo Moura"
 tags: []
 lang: "en"
 ---

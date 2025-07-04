@@ -8,7 +8,7 @@ image:
     alt: "frontend master",
   }
 publishDate: "2025-04-07 15:39"
-category: "Weekly Update"
+category: "Atualização Semanal"
 author: "Leonardo Laia"
 tags: []
 lang: "pt"
